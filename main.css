@@ -42,3 +42,14 @@ a{
 .list__link.active{
     color: #000;
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.input{
+    margin-bottom: 25px;
+}

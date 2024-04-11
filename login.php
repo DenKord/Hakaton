@@ -10,6 +10,7 @@
     <header class="header">
         <div class="continer">
             <ul class="list">
+                <li class="list__item"><a href="http://localhost/Hahaton/index.html" class="list__link">Главаная</a></li>
                 <li class="list__item"><a href="http://localhost/Hahaton/connect.php" class="list__link">Регистрация</a></li>
                 <li class="list__item"><a href="http://localhost/Hahaton/login.php" class="list__link active">Войти</a></li>
             </ul>
@@ -18,10 +19,10 @@
     <main>
         <section class="hero">
             <div class="continer">
-                <form action="login.php" method="post">
-                    <input type="text" plaseholder="Логин" name="login" id="login">
-                    <input type="text" plaseholder="Пароль" name="password" id="password">
-                    <button type="submit">Отпарвить</button>
+                <form class="form" action="login.php" method="post">
+                    <input class="input" type="text" plaseholder="Логин" name="login" id="login">
+                    <input class="input" type="text" plaseholder="Пароль" name="password" id="password">
+                    <button type="submit">войти</button>
                 </form>
             </div>
         </section>
