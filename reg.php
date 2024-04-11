@@ -3,5 +3,6 @@ require "index.php";
 $username = $_POST["login"];
 $password = $_POST["password"];
 $sql_insert = "INSERT INTO users (login,pass) VALUES ('$username','$password')";
-$db->query($sql_insert)
+$db->query($sql_insert);
+header("Location: http://localhost/Hahaton/user.html");
 ?>

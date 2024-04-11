@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.continer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 153, 0);
+}
+
+.header{
+    padding: 25px;
+    border-bottom: 1px solid #000;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list__item{
+    margin-right: 25px;
+}
+
+.hero{
+    margin-top: 50px;
+}
+.list__link.active{
+    color: #000;
+}
